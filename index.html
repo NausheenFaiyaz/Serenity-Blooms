@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SerenityBlooms</title>
+    <link rel="icon" type="image/jpg" href="images/icon.jpeg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+
+      <a href="#" class="logo">SerenityBlooms<span>.</span></a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>find your own hapiness</h3>
+        <span>natural & beautiful flowers</span>
+        <p>
+          The best gifts for those you love. Fresh flower delivery daily and
+          around a clock.
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about </span> us</h1>
+      <div class="row">
+        <div class="video-container">
+          <video src="yard.mp4" loop autoplay muted></video>
+          <h3>best flower sellers</h3>
+        </div>
+        <div class="content">
+          <h3>why choose us?</h3>
+          <p>
+            flowers are carefully selected and handpicked by expert florists to
+            bring smile and happiness. We take great pride in arranging the
+            freshest flower arrangements on daily basis. We make sure that every
+            leaf is fresh and each flower cut to perfection. Bring a smile to
+            your loved ones, work colleagues or just to make someone specials
+            day.
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="icons-container">
+      <div class="icons">
+        <img src="free delivery.png" alt="" />
+        <div class="info">
+          <h3>free delivery</h3>
+          <span>on all orders</span>
+        </div>
+      </div>
+      <div class="icons">
+        <img src="return.png" alt="" />
+        <div class="info">
+          <h3>10 days returns</h3>
+          <span>moneyback guarantee</span>
+        </div>
+      </div>
+      <div class="icons">
+        <img src="offers.png" alt="" />
+        <div class="info">
+          <h3>offer & gifts</h3>
+          <span>on all orders</span>
+        </div>
+      </div>
+      <div class="icons">
+        <img src="payment.png" alt="" />
+        <div class="info">
+          <h3>secure payments</h3>
+          <span>protected by paypal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-8%</span>
+          <div class="image">
+            <img src="images/img1.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Blushing Dreams</h3>
+            <div class="price">$30.99 <span>$38.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-15%</span>
+          <div class="image">
+            <img src="images/img2.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Classic Bunch</h3>
+            <div class="price">$55.69 <span>$65.00</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-5%</span>
+          <div class="image">
+            <img src="images/img3.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>light of my life bouquet</h3>
+            <div class="price">$64.99 <span>$69.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="images/img4.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Buds of Love</h3>
+            <div class="price">$70.99 <span>$65.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-12%</span>
+          <div class="image">
+            <img src="images/img5.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>pastel paradise</h3>
+            <div class="price">$42.80 <span>$55.00</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-5%</span>
+          <div class="image">
+            <img src="images/img6.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Gift bouquet</h3>
+            <div class="price">$28.79 <span>$30.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-5%</span>
+          <div class="image">
+            <img src="images/img7.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>orchid flowers</h3>
+            <div class="price">$27.99 <span>$31.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="image">
+            <img src="images/img8.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>valentine bouquet</h3>
+            <div class="price">$52.00 <span>$60.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-3%</span>
+          <div class="image">
+            <img src="images/img9.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>tulip bouquet</h3>
+            <div class="price">$33.99 <span>$36.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-2%</span>
+          <div class="image">
+            <img src="images/img10.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>roses for love</h3>
+            <div class="price">$49.09 <span>$50.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-5%</span>
+          <div class="image">
+            <img src="images/img11.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>You're a Gem</h3>
+            <div class="price">$43.99 <span>$45.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="images/img12.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>sunshine smile</h3>
+            <div class="price">$29.99 <span>$34.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-8%</span>
+          <div class="image">
+            <img src="images/img13.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Rosey Radiance</h3>
+            <div class="price">$37.39 <span>$40.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-15%</span>
+          <div class="image">
+            <img src="images/img14.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>mixed rose bouquet</h3>
+            <div class="price">$41.58 <span>$55.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-12%</span>
+          <div class="image">
+            <img src="images/img15.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>valentine gift bouquet</h3>
+            <div class="price">$55.99 <span>$62.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <span class="discount">-7%</span>
+          <div class="image">
+            <img src="images/img16.jpg" alt="" />
+            <div class="icons">
+              <a class="fas fa-heart" onclick="changeColor(this)"></a>
+              <a class="cart-btn" onclick="swapText(this, 'Go to cart');"
+                >add to cart</a
+              >
+              <a class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Birthday bouquet</h3>
+            <div class="price">$31.99 <span>$35.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            "Amazing service! The flowers were even more beautiful in person
+            than they were on the website. The delivery was prompt, and the
+            packaging ensured the bouquet arrived in perfect condition. This is
+            now my go-to place for ordering flowers."
+          </p>
+          <div class="user">
+            <img src="images/jean.avif" alt="" />
+            <div class="user-info">
+              <h3>jean Grey</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            serenityBlooms did a fantastic job! The bouquet I sent was gorgeous,
+            and the delivery was right on schedule. Easy to order and great
+            quality. Will definitely use them again!
+          </p>
+          <div class="user">
+            <img src="images/charles.jpg" alt="" />
+            <div class="user-info">
+              <h3>Charles Xavier</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I ordered a bouquet from serenityBlooms for a friend’s birthday, and
+            it was perfect! The flowers were fresh and the arrangement was
+            beautiful. Delivery was on time, and the whole process was smooth.
+            Highly recommend!
+          </p>
+          <div class="user">
+            <img src="images/Erik1.webp" alt="" />
+            <div class="user-info">
+              <h3>Erik Lehnsherr</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <span class="fas fa-quote-right"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact </span>us</h1>
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="number" placeholder="number" class="box" />
+          <textarea
+            name=""
+            class="box"
+            placeholder="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+        <div class="image">
+          <img src="images/Service.avif" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">products</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#">my account</a>
+          <a href="#">my order</a>
+          <a href="#">my favorite</a>
+        </div>
+        <div class="box">
+          <h3>location</h3>
+          <a href="#">india</a>
+          <a href="#">USA</a>
+          <a href="#">Japan</a>
+          <a href="#">south Korea</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+123-456-7890</a>
+          <a href="#">SerenityBlooms@gmail.com</a>
+          <a href="#">bihar, india -804408</a>
+          <img src="images/credit.png" alt="" />
+        </div>
+      </div>
+
+      <div class="credit"><span>© codeXninja</span> | all rights Reserved</div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
